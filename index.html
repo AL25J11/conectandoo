@@ -28,16 +28,36 @@
         </h3>
     </div>
     <div data-role="content">
+    <from name="log">
         <div data-role="fieldcontain">
             <input name="Usuario" id="Usuario" placeholder="Usuario" value="" type="text">
         </div>
         <div data-role="fieldcontain">
             <input name="Password" id="Password" placeholder="Password" value="" type="password">
         </div>
-        <a id="Entrar" data-role="button" href="#page1" data-icon="check" data-iconpos="right" class="Enviar">
-            Enviar
+      <input id="Enviar" type="submit" data-icon="check" data-iconpos="right" value="Entrar" class="Enviar">
+      </from>
+    </div>
+</div>
+<!--Busqueda -->
+<div data-role="page" id="Busqueda">
+    <div data-theme="a" data-role="header">
+        <h3>
+           Busqueda 
+        </h3>
+    </div>
+    <div data-role="content">
+    <from name="buscar">
+        <div data-role="fieldcontain" class="Btitulo">
+            <input name="" id="textinput2" placeholder="Titulo del libro" value=""
+            type="text">
+        </div>
+        <input id="Busqueda2" type="submit" value="Buscar" data-icon="check" data-iconpos="right"
+        class="Busqueda">
+           </from>
         </a>
     </div>
 </div>
+
 </body>
 </html>
